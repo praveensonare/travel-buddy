@@ -213,13 +213,13 @@ function App() {
   const messages: Message[] = [
     {
       type: 'user',
-      content: 'Hi TravelBuddy! I am a solo traveler, looking to travel Singapore from 6 March to 7th March. I prefer reaching singapore before 9 am on 6th and will be leaving around 6pm on 7th March.'
+      content: 'Please plan my travel based on my preferences'
     },
     {
       type: 'agent',
       content: (
         <div>
-          <p className="mb-4">Hi Jon, Here are the best 2 flights options I can propose:</p>
+          <p className="mb-4">Hi John, Here are the best 2 flights options I can propose:</p>
           <div className="grid md:grid-cols-2 gap-4">
             <div className="bg-white rounded-lg shadow-md p-4 border border-blue-100 hover:border-blue-300 transition-all cursor-pointer">
               <div className="flex items-center justify-between mb-3">
